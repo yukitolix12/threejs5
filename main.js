@@ -31,6 +31,9 @@ const planeGeometry = new THREE.PlaneGeometry(70, 70);
 const plane = new THREE.Mesh(planeGeometry, material);
 scene.add(plane);
 
+//pointLight
+const pointLight = new THREE.PointLight(0xffffff, 1);
+
 //renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(size.width, size.height);
