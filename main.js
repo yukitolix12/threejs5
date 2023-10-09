@@ -29,7 +29,7 @@ const planeGeometry = new THREE.PlaneGeometry(70, 70);
 
 //mesh
 const plane = new THREE.Mesh(planeGeometry, material);
-
+scene.add(plane);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
