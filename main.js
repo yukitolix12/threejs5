@@ -21,3 +21,4 @@ camera.position.set(0, 3, 65);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
+renderer.setSize(size.width, size.height);
