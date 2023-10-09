@@ -27,6 +27,10 @@ const material = new THREE.MeshStandardMaterial({
 //plane
 const planeGeometry = new THREE.PlaneGeometry(70, 70);
 
+//mesh
+const plane = new THREE.Mesh(planeGeometry, material);
+
+
 //renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(size.width, size.height);
