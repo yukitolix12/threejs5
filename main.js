@@ -21,7 +21,7 @@ camera.position.set(0, 3, 65);
 
 //material
 const material = new THREE.MeshStandardMaterial({
-    
+    color: "gray",
 });
 
 //renderer
