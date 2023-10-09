@@ -6,3 +6,6 @@ const size = {
     width: window.innerWidth,
     height: window.innerHeight,
 };
+
+//scene
+const scene = new THREE.Scene();
