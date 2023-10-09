@@ -30,3 +30,13 @@ const control = new OrbitControls(camera, renderer.domElement);
 control.enableDamping = true;
 
 const clock = new THREE.Clock();
+
+//animation
+function animate() {
+    const elapsedTime = clock.getElapsedTime();
+
+    control.update();
+
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+}
