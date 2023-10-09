@@ -11,9 +11,10 @@ const size = {
 const scene = new THREE.Scene();
 
 //camera
-const Camera = new THREE.PerspectiveCamera(
+const camera = new THREE.PerspectiveCamera(
     75,
     size.width / size.height,
     0.1,
     1000
 );
+camera.position.set(0, 3, 65);
