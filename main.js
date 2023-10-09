@@ -28,3 +28,5 @@ document.body.append(renderer.domElement);
 //Control
 const control = new OrbitControls(camera, renderer.domElement);
 control.enableDamping = true;
+
+const clock = new THREE.Clock();
