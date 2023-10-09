@@ -19,6 +19,11 @@ const camera = new THREE.PerspectiveCamera(
 );
 camera.position.set(0, 3, 65);
 
+//material
+const material = new THREE.MeshStandardMaterial({
+    
+});
+
 //renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(size.width, size.height);
