@@ -40,7 +40,7 @@ scene.add(plane);
 const box = new THREE.Mesh(boxGeometry, material);
 box.position.y = 3.5;
 box.castShadow = true;
-scene.add(plane);
+scene.add(box);
 
 //pointLight
 const pointLight = new THREE.PointLight(0xffffff, 1);
