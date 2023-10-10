@@ -30,10 +30,13 @@ const planeGeometry = new THREE.PlaneGeometry(70, 70);
 //box
 const boxGeometry = new THREE.BoxGeometry(7, 7, 7);
 
-//mesh
+//mesh-plane
 const plane = new THREE.Mesh(planeGeometry, material);
 plane.rotation.x = -Math.PI * 0.5;
 scene.add(plane);
+
+//mesh-box
+const box = new THREE.Mesh(boxGeometry, material);
 
 //pointLight
 const pointLight = new THREE.PointLight(0xffffff, 1);
