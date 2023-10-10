@@ -33,6 +33,7 @@ const boxGeometry = new THREE.BoxGeometry(7, 7, 7);
 //mesh-plane
 const plane = new THREE.Mesh(planeGeometry, material);
 plane.rotation.x = -Math.PI * 0.5;
+plane.receiveShadow = true;
 scene.add(plane);
 
 //mesh-box
