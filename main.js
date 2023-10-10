@@ -37,6 +37,7 @@ scene.add(plane);
 
 //mesh-box
 const box = new THREE.Mesh(boxGeometry, material);
+scene.add(plane);
 
 //pointLight
 const pointLight = new THREE.PointLight(0xffffff, 1);
