@@ -53,6 +53,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(size.width, size.height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 document.body.append(renderer.domElement);
+renderer.shadowMap.enabled = true;
 
 //Control
 const control = new OrbitControls(camera, renderer.domElement);
