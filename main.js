@@ -87,4 +87,6 @@ window.addEventListener("resize", () => {
     renderer.setSize(size.width, size.height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   });
+
+  animate();
   
