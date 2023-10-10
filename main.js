@@ -29,6 +29,7 @@ const planeGeometry = new THREE.PlaneGeometry(70, 70);
 
 //mesh
 const plane = new THREE.Mesh(planeGeometry, material);
+plane.rotation.x = -Math.PI * 0.5;
 scene.add(plane);
 
 //pointLight
