@@ -34,6 +34,7 @@ scene.add(plane);
 //pointLight
 const pointLight = new THREE.PointLight(0xffffff, 1);
 pointLight.position.set(5, 15, -5);
+scene.add(pointLight);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
