@@ -27,6 +27,9 @@ const material = new THREE.MeshStandardMaterial({
 //plane
 const planeGeometry = new THREE.PlaneGeometry(70, 70);
 
+//box
+const boxGeometry = new THREE.BoxGeometry(7, 7, 7);
+
 //mesh
 const plane = new THREE.Mesh(planeGeometry, material);
 plane.rotation.x = -Math.PI * 0.5;
