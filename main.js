@@ -54,7 +54,7 @@ pointLight.shadow.mapSize.width = 1024;
 pointLight.shadow.mapSize.height = 1024;
 
 pointLight.shadow.camera.near = 6;
-pointLight.shadow.camera.far = 76;
+pointLight.shadow.camera.far = 10;
 
 scene.add(pointLight);
 
