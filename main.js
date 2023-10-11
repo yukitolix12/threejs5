@@ -58,6 +58,7 @@ const pointLightHelper = new THREE.PointLightHelper(pointLight, 3);
 scene.add(pointLightHelper);
 
 const pointLightCameraHelper = new THREE.CameraHelper(pointLight.shadow.camera);
+scene.add(pointLightCameraHelper);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
