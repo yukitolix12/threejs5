@@ -47,8 +47,8 @@ const pointLight = new THREE.PointLight(0xffffff, 1);
 pointLight.position.set(5, 15, -5);
 pointLight.castShadow = true;
 
-//console.log(pointLight.shadow);
-pointLight.shadow.radius= 30;
+console.log(pointLight.shadow);
+//pointLight.shadow.radius= 10;
 
 pointLight.shadow.mapSize.width = 1024;
 pointLight.shadow.mapSize.height = 1024;
@@ -56,6 +56,8 @@ scene.add(pointLight);
 
 const pointLightHelper = new THREE.PointLightHelper(pointLight, 3);
 scene.add(pointLightHelper);
+
+const pointLightCameraHelper = new THREE.CameraHelper(pointLight.shadow.camera);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
