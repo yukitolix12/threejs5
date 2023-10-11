@@ -48,6 +48,7 @@ pointLight.position.set(5, 15, -5);
 pointLight.castShadow = true;
 
 //console.log(pointLight.shadow);
+pointLight.shadow.radius= 30;
 
 pointLight.shadow.mapSize.width = 1024;
 pointLight.shadow.mapSize.height = 1024;
