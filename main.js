@@ -47,8 +47,9 @@ const pointLight = new THREE.PointLight(0xffffff, 1);
 pointLight.position.set(5, 15, -5);
 pointLight.castShadow = true;
 
-console.log(pointLight.shadow);
+//console.log(pointLight.shadow);
 
+pointLight.shadow.mapSize.width = 1024;
 scene.add(pointLight);
 
 const pointLightHelper = new THREE.PointLightHelper(pointLight, 3);
