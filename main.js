@@ -43,7 +43,7 @@ box.castShadow = true;
 scene.add(box);
 
 //pointLight
-const pointLight = new THREE.PointLight(0xffffff, 1);
+const pointLight = new THREE.PointLight(0xffffff, 1, 150);
 pointLight.position.set(5, 15, -5);
 pointLight.castShadow = true;
 
